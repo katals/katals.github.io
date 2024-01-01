@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Carlos</a>
+        <div class="nav__menu">
+          <ul class="nav__list grid">
+            <div class="nav__item">
+              <a href="#home" class="nav__link"
+                ><i class="uil uil-estate"></i>Home</a
+              >
+            </div>
+            <div class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="uil uil-user"></i>About</a
+              >
+            </div>
+            <div class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="uil uil-bag"></i>Portfolio</a
+              >
+            </div>
+            <div class="nav__item" id="item-collapsed">
+              <a href="" class="nav__link nav__close"
+                ><i class="uil uil-times"></i>Close</a
+              >
+             </div>
+          </ul>
+        </div>
+        <div class="nav__buttons">
+          <div class="nav__toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-trejos-3471a526a/" target="_blank" class="home__social-icon">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://github.com/katals" target="_blank" class="home__social-icon">
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__img-blub"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 2000 1800"
+                fill="#32955B"
+              >
+                <path
+                  d="M1386.57 181.4c160.9 73.74 328.5 149.72 424.59 281.57 96.09 129.61 118.44 315.09 98.33 487.16-20.11 172.07-84.92 332.97-187.71 446.94-105.03 116.2-250.29 185.48-391.07 243.58-138.55 60.34-272.63 109.5-393.31 91.62-122.91-17.88-234.64-102.8-377.66-160.9-143.02-58.1-317.33-87.15-406.71-183.24-89.39-96.09-96.09-261.46 2.23-368.72 98.33-109.5 301.68-160.9 384.37-270.4 82.68-111.73 42.46-283.81 84.92-422.36C669.24 188.1 798.86 80.83 937.41 60.72c140.79-20.11 290.51 49.16 449.17 120.67Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I am Juan Carlos</h1>
+              <h3 class="home__subtitle">Full stack developer</h3>
+              <p class="home__description">A learner with experience at work</p>
+              <a class="button"> Contact me<i class="uil uil-message"></i> </a>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="section__title">About me</h2>
+        <p class="section__subtitle">My introduction</p>
+        <div class="about__container container grid">
+          <img src="../assets/images/description-photo.jpeg" alt="" class="about__img" />
+          <div class="about__data grid">
+            <p class="about__description">
+              Passionate full-stack programmer with outstanding .NET expertise. I excel in crafting innovative, efficient solutions, and I bring a formal, professional mindset to tackling complex challenges.
+            </p>
+            <div class="about__button">
+              <a class="button" download="cv" href="../assets/docs/cv.pdf"
+                >Download CV<i class="uil uil-download-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My portfolio</h2>
+        <p class="section__subtitle">Projects</p>
+
+        <div class="portfolio__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="../assets/images/Captura.PNG"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">CRUD</h3>
+                <p class="portfolio__description">
+                  crud made with .NET and angular
+                </p>
+                <a href="https://github.com/katals/CRUD-angular-.NET-EF" class="button button--sm portfolio__button"
+                  >Demo <i class="uil uil-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="../assets/images/Captura.PNG"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">CRUD</h3>
+                <p class="portfolio__description">
+                  crud made with .NET and angular
+                </p>
+                <a href="" class="button button--sm portfolio__button"
+                  >Demo <i class="uil uil-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Carlos</h1>
+          <span class="footer__subtitle">Fullstack Developer</span>
+        </div>
+        <ul class="footer__links">
+          <li>
+            <a href="" class="footer__link"></a>
+          </li>
+          <li>
+            <a href="" class="footer__link"></a>
+          </li>
+          <li>
+            <a href="" class="footer__link"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="../javascript/swiper.js"></script>
+  <script type="module" src="../javascript/toggle.js"></script>
+  <script type="module" src="../javascript/scrollActive.js"></script>
+</html>
