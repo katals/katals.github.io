@@ -1,4 +1,4 @@
 **Personal page: Juan Carlos Muñoz Trejos**
 
-**My page:**
+**URL:**
 https://katals.github.io/html/index.html
